@@ -1,2 +1,2 @@
 # pythonDSRune
-Collection of exercises done from Rune Interactive Python and Data Structures Textbook 
+A collection of my programming exercises from using the Rune Interactive textbook Problem Solving and Data Structures Using Python textbook. Found here at the following link: http://interactivepython.org/runestone/static/pythonds/index.html 

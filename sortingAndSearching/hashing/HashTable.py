@@ -1,23 +1,18 @@
 '''We implement the map abstract data type. This is a useful type commonly used in python known as a dictionary. 
 
-Hash functions/method is an extremeley important concept in computer science. They allow us
-to have an efficient lookup in constant time or in other words O(1). Of course the are worst
-cases that prevent this good time. 
+Important Topics Covered
+- Hashing O(1) for best case
+- Hash functions: remainder, folding, and midsquare
+- Collisions
+	- open addressing
+	- linear probing (can lead to clustering) 
+	- quadratic probing
+	- rehash functions
+	- chaining 
+'''
 
-There are several methods we learned today to produce hash functions. They include the 
-remainder method, folding method, and midsquare method. 
-
-We also learned about perfect hash functions and how they typically are hard to find because 
-of collisions. We learned about ways to deal with collisions by simply determining a new rehash 
-value that will attempt to find an empty slot. 
-
-We want creative solutions to the rehash method because just basic linear probing can lead to clustering.
-As a result we use methods that allow for the rehash function to skip over spaces in order to jump to 
-a slot a bit farther away to avoid clustering. Also we want to make sure that we go through all slots to 
-see if they actually can be used (ie they contain nothing); thus, it is desirable to make the size of the 
-hash table a prime number so that any linear probing skip step method will be able to visit all slots. 
-
-Lastly to sum up. What we did was essentially create a dictionary class in python using a hashtable.''' 
+# TODO Read more on the analysis of Hashing  
+# TODO Write more test cases
 
 class HashTable():
 	# Utilize two slots. One for keys and one for data to implement hash table 

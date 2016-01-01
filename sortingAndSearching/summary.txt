@@ -1,0 +1,10 @@
+Important Notes to Consider
+
+- Sequential Search is O(n) on an ordered and unordered list
+- A binary search is O(n) in a worst case ordered list no? but the book says O(log(n))
+- Hash tables provide us with constant time searching 
+- Bubble, selection, and insertion are O(n^2) 
+- Shell is between O(n) and O(n^2) 
+- Merge O(nlogn) but needs more space
+- Quick O(nlogn) but O(n^2) if splitpoints to near beginning does not require addtional space
+
